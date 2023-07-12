@@ -35,6 +35,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.featuredWork h2 {
+  text-align: center;
+}
 .workCategory {
   display: flex;
   flex-direction: column;
@@ -53,9 +56,33 @@
   justify-content: space-between;
   border-top: 1px solid #333;
   padding: 0.75rem 0;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.workCategory li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
 }
 
 .workCategory h3 {
   font-size: 1.5rem;
   font-weight: 400;
+  text-align: center;
+  margin: 0 0 25px;
+}
+.wpThemes {
+  padding-left: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.wpThemes li {
+  border: 1px solid #2f2c2c;
+  border-radius: 5px;
+  display: inline-block;
+  color: var(--gray);
+  font-size: 16px;
+  padding: 15px;
+  margin: 0 10px 10px 0;
 }

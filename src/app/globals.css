@@ -4,6 +4,7 @@
   --font-inter: "Inter", sans-serif;
   --font-dm-serif-display: "DM Serif Display", serif;
   --dark-bg: #1f1f1f;
+  --green: #ccf2df;
 }
 
 * {
@@ -31,6 +32,17 @@ h3 {
 
 h1 {
   font-size: clamp(2rem, 5vw, 4rem);
+}
+h2 {
+  font-size: clamp(1.5rem, 3vw, 4rem);
+}
+h3 {
+  font-size: clamp(1.5rem, 2vw, 4rem);
+}
+
+h3 span {
+  font-style: italic;
+  color: var(--green);
 }
 
 p,
