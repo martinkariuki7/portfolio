@@ -25,6 +25,8 @@ h2,
 h3 {
   font-family: var(--font-dm-serif-display), serif;
   font-weight: 400;
+  margin: 0 0 15px;
+  line-height: 1.2;
 }
 
 h1 {
