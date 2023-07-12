@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@200;400&display=swap");
+
 :root {
-  --header-font: "DM Serif Display", "Inter" serif;
-  --body-font: "Inter", "DM Serif Display", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-dm-serif-display: "DM Serif Display", serif;
+  --dark-bg: #1f1f1f;
 }
 
 * {
@@ -11,14 +14,26 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: var(--font-inter), serif;
+  background-color: var(--dark-bg);
+  color: white;
+  padding: 1rem 1.5rem;
 }
 
 h1,
 h2,
 h3 {
-  font-family: var(--header-font);
+  font-family: var(--font-dm-serif-display), serif;
+  font-weight: 400;
 }
 
 h1 {
   font-size: clamp(2rem, 5vw, 4rem);
+}
+
+p,
+li {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 200;
 }

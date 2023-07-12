@@ -1,0 +1,28 @@
+.siteHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteBranding span {
+  font-size: 1.25rem;
+}
+
+.siteNav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.siteNav ul li {
+  margin: 0 15px;
+  font-size: 1rem;
+}
+
+.siteNav ul li:last-child {
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+}
