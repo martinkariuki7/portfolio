@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/header/header";
 import styles from "./page.module.css";
 import Link from "next/link";
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -63,6 +64,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }

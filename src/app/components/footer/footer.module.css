@@ -1,0 +1,39 @@
+.siteFooter {
+  width: min(100% - 2rem, 1330px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+  margin-inline: auto;
+  padding: 3rem 0 2rem;
+  border-top: 1px solid #333;
+}
+
+.siteFooter a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerNav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footerNav ul li {
+  font-size: 1.5rem;
+  margin: 0 8px;
+}
+
+.contact ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact ul li {
+  font-size: 1rem;
+  margin: 0 5px;
+}
