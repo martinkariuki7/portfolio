@@ -1,6 +1,7 @@
 # portfolio
 
 My personal portfolio built with NextJS
+
 live url: https://martinkariuki.vercel.app/
 
 ## Getting Started
