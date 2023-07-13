@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <main>
         <section className={styles.hero}>
-          <h1>UX designer & Javascript Develper</h1>
+          <h1>UX designer & Javascript Developer</h1>
           <div className={styles.heroContent}>
             <p>
               I am an experienced developer with a strong foundation in UX

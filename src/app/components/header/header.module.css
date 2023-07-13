@@ -31,3 +31,18 @@
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 795px) {
+  .siteNav ul li:nth-child(-n + 2) {
+    display: none;
+  }
+  .siteHeader {
+    padding: 1rem;
+  }
+  .siteNav ul li {
+    margin: 0;
+  }
+  .siteBranding span {
+    font-size: 1rem;
+  }
+}
