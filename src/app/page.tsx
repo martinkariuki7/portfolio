@@ -199,7 +199,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="hhttps://osterhusarena.no/" target="_Blank">
+                <a href="https://osterhusarena.no/" target="_Blank">
                   Østerhus Arena <RiArrowRightUpLine />
                 </a>
               </li>
