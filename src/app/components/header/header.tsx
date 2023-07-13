@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./header.module.css";
 
 export default function Header() {
@@ -8,9 +9,22 @@ export default function Header() {
       </div>
       <nav className={styles.siteNav}>
         <ul>
-          <li>Work</li>
-          <li>About me</li>
-          <li>Download CV</li>
+          <li>
+            <Link href="#work">Work</Link>
+          </li>
+          <li>
+            <Link
+              href="https://no.linkedin.com/in/william-martin-kariuki-74ab9713"
+              target="_Blank"
+            >
+              Job experience
+            </Link>
+          </li>
+          <li>
+            <Link href="cv.pdf" target="_Blank">
+              Download CV
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

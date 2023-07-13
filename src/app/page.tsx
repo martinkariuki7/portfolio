@@ -21,13 +21,13 @@ export default function Home() {
               and Next.js.
             </p>
 
-            <Link className={styles.buttonDown} href="#contact">
+            <Link className={styles.buttonDown} href="#work">
               See my work
               <RiArrowRightDownLine className={styles.ml3} />
             </Link>
           </div>
         </section>
-        <section id="contact" className={styles.featuredWork}>
+        <section id="work" className={styles.featuredWork}>
           <h2>Featured work</h2>
           <div className={styles.workCategory}>
             <h3>

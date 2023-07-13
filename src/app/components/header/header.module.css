@@ -26,3 +26,8 @@
   border-radius: 6px;
   padding: 0.5rem 1rem;
 }
+
+.siteNav li a {
+  color: white;
+  text-decoration: none;
+}
