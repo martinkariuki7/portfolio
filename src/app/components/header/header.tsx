@@ -15,7 +15,7 @@ export default function Header() {
           </li>
           <li>
             <Link
-              href="https://no.linkedin.com/in/william-martin-kariuki-74ab9713"
+              href="https://www.linkedin.com/in/william-martin-kariuki-74ab9713/details/experience/"
               target="_Blank"
             >
               Job experience <RiArrowRightUpLine />
