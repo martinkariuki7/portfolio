@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RiArrowRightUpLine } from "react-icons/ri";
 import styles from "./header.module.css";
 
 export default function Header() {
@@ -17,7 +18,7 @@ export default function Header() {
               href="https://no.linkedin.com/in/william-martin-kariuki-74ab9713"
               target="_Blank"
             >
-              Job experience
+              Job experience <RiArrowRightUpLine />
             </Link>
           </li>
           <li>
