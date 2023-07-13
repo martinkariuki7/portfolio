@@ -18,7 +18,7 @@ export default function Home() {
               design. Throughout my career, I have successfully built numerous
               websites and smaller web applications. I recently decided to
               specialize in Javascript development focusing primarily on React
-              and Next.js.
+              and Next JS.
             </p>
 
             <Link className={styles.buttonDown} href="#work">
