@@ -14,11 +14,9 @@ export default function Home() {
           <h1>UX designer & Javascript Developer</h1>
           <div className={styles.heroContent}>
             <p>
-              I am an experienced developer with a strong foundation in UX
-              design. Throughout my career, I have successfully built numerous
-              websites and smaller web applications. I recently decided to
-              specialize in Javascript development focusing primarily on React
-              and Next JS.
+              I enjoy working at the intersection between UX design and
+              front-end development. I have experience creating beautiful,
+              functional and user-friendly websites and applications.
             </p>
 
             <Link className={styles.buttonDown} href="#work">
