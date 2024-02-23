@@ -132,6 +132,11 @@ export default function Home() {
             </h3>
             <ul className={styles.wpThemes}>
               <li>
+                <a href="https://designhotellet.no/" target="_Blank">
+                  Design Hotellet <RiArrowRightUpLine />
+                </a>
+              </li>
+              <li>
                 <a href="https://fjogstad-hus.no" target="_Blank">
                   Fjogstad hus <RiArrowRightUpLine />
                 </a>
