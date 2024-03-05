@@ -29,7 +29,7 @@ export default function Home() {
           <h2>Featured work</h2>
           <div className={styles.workCategory}>
             <h3>
-              Built with <span>react</span>
+              Solo <span>side projects</span>
             </h3>
             <ul>
               <li>
@@ -82,7 +82,9 @@ export default function Home() {
           </div>
           <div className={styles.workCategory}>
             <h3>
-              Built with <span>Javascript</span>
+              <h3>
+                Joint <span>side projects</span>
+              </h3>
             </h3>
             <ul>
               <li>
@@ -128,7 +130,7 @@ export default function Home() {
           </div>
           <div className={styles.workCategory}>
             <h3>
-              Custom <span>WordPress</span> themes
+              Official <span>work</span>
             </h3>
             <ul className={styles.wpThemes}>
               <li>
