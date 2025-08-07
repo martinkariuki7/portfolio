@@ -11,25 +11,25 @@ export default function Home() {
       <Header />
       <main>
         <section className={styles.hero}>
-          <h1>Personal webspace of William Martin Kariuki</h1>
+          <h1>William Martin Kariuki</h1>
           <div className={styles.heroContent}>
             <p>Father, husband, UX designer.</p>
             <p>
               Kenyan living in Norway, fluent in Norwegian, but can&#39;t for
-              the life of me pronounce æ, å or ø correctly. Have worked in UX
-              since 2007. Structured & systematic, obsessed with details & very
-              thorough. Can code too. Employed @Okse as a consultant. Privileged
-              to have worked with companies like Lyse, Altibox, Kenya Airways,
-              Sirdal skisenter & tens more. Oh! also a big fan of my previous
-              employer @Ensign. Had to mention them somewhere 🫶🏻
+              has trouble pronouncing anything with the letters æ, å or ø
+              correctly. Worked in UX since 2007. Structured, systematic,
+              obsessed with details & super thorough. Can code too. Currently
+              employed @Okse as a UX consultant. Privileged to have worked with
+              companies like Lyse, Altibox, Kenya Airways, Sirdal skisenter &
+              tens more.
             </p>
             <p>
-              Love handshakes & laughing. Can sometimes laugh & clap at the same
-              time, unsure if it&#39;s pleasant or annoying. If there&#39;s an
-              awkward silence during a conversation, I&#39;ll probably start
-              talking about goats, weird, I know. Working on fixing this. Enjoy
-              watching & playing football, especially the premier league,
-              favorite team Arsenal. Next season its ours. 🏆
+              Lover of handshakes. Laughs a lot. Can sometimes laugh & clap at
+              the same time, unsure if it&#39;s pleasant or annoying. Can
+              randomly start talking about goats, weird, working on fixing that.
+              Enjoys watching, playing & discussing football, especially the
+              premier league, favorite team Arsenal. Next season it&#39;s ours.
+              🏆
             </p>
 
             <Link className={styles.buttonDown} href="#work">
@@ -95,9 +95,7 @@ export default function Home() {
           </div>
           <div className={styles.workCategory}>
             <h3>
-              <h3>
-                Joint <span>side projects</span>
-              </h3>
+              Joint <span>side projects</span>
             </h3>
             <ul>
               <li>
