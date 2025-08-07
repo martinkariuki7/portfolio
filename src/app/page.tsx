@@ -11,22 +11,24 @@ export default function Home() {
       <Header />
       <main>
         <section className={styles.hero}>
-          <h1>William Martin Kariuki</h1>
+          <figure className={styles.heroImage}>
+            <img src="martin.jpg" alt="William Martin Kariuki" />
+          </figure>
           <div className={styles.heroContent}>
+            <h1>Personal webspace of William Martin Kariuki</h1>
             <p>Father, husband, UX designer.</p>
             <p>
-              Kenyan living in Norway, fluent in Norwegian, but can&#39;t for
-              has trouble pronouncing anything with the letters æ, å or ø
-              correctly. Worked in UX since 2007. Structured, systematic,
-              obsessed with details & super thorough. Can code too. Currently
-              employed @Okse as a UX consultant. Privileged to have worked with
-              companies like Lyse, Altibox, Kenya Airways, Sirdal skisenter &
-              tens more.
+              Kenyan living in Norway. Fluent in Norwegian, but struggles
+              pronouncing anything with the letters æ, å or ø. Worked in UX
+              since 2007. Structured, systematic, obsessed with details & super
+              thorough. Can code too. Currently employed @Okse as a UX
+              consultant. Privileged to have worked with companies like Lyse,
+              Altibox, Kenya Airways, Sirdal skisenter & tens more.
             </p>
             <p>
               Lover of handshakes. Laughs a lot. Can sometimes laugh & clap at
               the same time, unsure if it&#39;s pleasant or annoying. Can
-              randomly start talking about goats, weird, working on fixing that.
+              randomly start talking about goats. Weird, working on fixing that.
               Enjoys watching, playing & discussing football, especially the
               premier league, favorite team Arsenal. Next season it&#39;s ours.
               🏆

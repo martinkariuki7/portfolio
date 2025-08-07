@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className={styles.siteHeader}>
       <div className={styles.siteBranding}>
-        <span>William M. Kariuki</span>
+        <span>WMK — UX designer</span>
       </div>
       <nav className={styles.siteNav}>
         <ul>
