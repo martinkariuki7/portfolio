@@ -11,12 +11,25 @@ export default function Home() {
       <Header />
       <main>
         <section className={styles.hero}>
-          <h1>UX designer & Javascript Developer</h1>
+          <h1>Personal webspace of William Martin Kariuki</h1>
           <div className={styles.heroContent}>
+            <p>Father, husband, UX designer.</p>
             <p>
-              I enjoy working at the intersection between UX design and
-              front-end development. I have experience creating beautiful,
-              functional and user-friendly websites and applications.
+              Kenyan living in Norway, fluent in Norwegian, but can&#39;t for
+              the life of me pronounce æ, å or ø correctly. Have worked in UX
+              since 2007. Structured & systematic, obsessed with details & very
+              thorough. Can code too. Employed @Okse as a consultant. Privileged
+              to have worked with companies like Lyse, Altibox, Kenya Airways,
+              Sirdal skisenter & tens more. Oh! also a big fan of my previous
+              employer @Ensign. Had to mention them somewhere 🫶🏻
+            </p>
+            <p>
+              Love handshakes & laughing. Can sometimes laugh & clap at the same
+              time, unsure if it&#39;s pleasant or annoying. If there&#39;s an
+              awkward silence during a conversation, I&#39;ll probably start
+              talking about goats, weird, I know. Working on fixing this. Enjoy
+              watching & playing football, especially the premier league,
+              favorite team Arsenal. Next season its ours. 🏆
             </p>
 
             <Link className={styles.buttonDown} href="#work">
