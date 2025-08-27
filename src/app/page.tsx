@@ -27,6 +27,9 @@ export default function Home() {
               <RiArrowRightDownLine className={styles.ml3} />
             </Link>
           </div>
+          <figure>
+            <img src="martin.jpg" alt="William Martin Kariuki" />
+          </figure>
         </section>
         <section id="work" className={styles.featuredWork}>
           <h2>Featured work</h2>
