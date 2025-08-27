@@ -6,24 +6,24 @@ export default function Header() {
   return (
     <header className={styles.siteHeader}>
       <div className={styles.siteBranding}>
-        <span>WMK — UX designer</span>
+        <span>WMK — UX designer.</span>
       </div>
       <nav className={styles.siteNav}>
         <ul>
           <li>
-            <Link href="#work">Work</Link>
+            <Link href="#work">Arbeid</Link>
           </li>
           <li>
             <Link
               href="https://www.linkedin.com/in/william-martin-kariuki-74ab9713/details/experience/"
               target="_Blank"
             >
-              Job experience <RiArrowRightUpLine />
+              Arbeids erfaring <RiArrowRightUpLine />
             </Link>
           </li>
           <li>
             <Link href="cv.pdf" target="_Blank">
-              Download CV
+              Last ned CV
             </Link>
           </li>
         </ul>
