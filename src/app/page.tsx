@@ -13,7 +13,7 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.heroContent}>
             <h1>
-              William Martin Kariuki, <span className="brushy-style">the</span>{" "}
+              William Martin Kariuki,<span className="brushy-style"> the</span>{" "}
               UX designer.
             </h1>
             <p>
@@ -23,7 +23,7 @@ export default function Home() {
               ansvar. Det er det som betyr mest for meg.
             </p>
             <Link className={styles.buttonDown} href="#work">
-              See my work
+              Se arbeidet mitt
               <RiArrowRightDownLine className={styles.ml3} />
             </Link>
           </div>
