@@ -11,29 +11,17 @@ export default function Home() {
       <Header />
       <main>
         <section className={styles.hero}>
-          <figure className={styles.heroImage}>
-            <img src="martin.jpg" alt="William Martin Kariuki" />
-          </figure>
           <div className={styles.heroContent}>
-            <h1>Personal webspace of William Martin Kariuki</h1>
-            <p>Father, husband, UX designer.</p>
+            <h1>
+              William Martin Kariuki, <span className="brushy-style">the</span>{" "}
+              UX designer.
+            </h1>
             <p>
-              Kenyan living in Norway. Fluent in Norwegian, but struggles
-              pronouncing anything with the letters æ, å or ø. Worked in UX
-              since 2007. Structured, systematic, obsessed with details & super
-              thorough. Can code too. Currently employed @Okse as a UX
-              consultant. Privileged to have worked with companies like Lyse,
-              Altibox, Kenya Airways, Sirdal skisenter & tens more.
+              Jeg har jobbet i bransjen siden 2007, når jeg sitte alene og
+              reflektere tilbake, så er jeg er mest stolt av min evne til å
+              jobbe med andre folk, at de får tillit til meg, og gir meg mer
+              ansvar. Det er det som betyr mest for meg.
             </p>
-            <p>
-              Lover of handshakes. Laughs a lot. Can sometimes laugh & clap at
-              the same time, unsure if it&#39;s pleasant or annoying. Can
-              randomly start talking about goats. Weird, working on fixing that.
-              Enjoys watching, playing & discussing football, especially the
-              premier league, favorite team Arsenal. Next season it&#39;s ours.
-              🏆
-            </p>
-
             <Link className={styles.buttonDown} href="#work">
               See my work
               <RiArrowRightDownLine className={styles.ml3} />
