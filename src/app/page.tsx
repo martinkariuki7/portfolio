@@ -12,31 +12,70 @@ export default function Home() {
       <main>
         <section className={styles.hero}>
           <div className={styles.heroContent}>
-            <h1>
-              William Martin Kariuki,<span className="brushy-style"> the</span>{" "}
-              UX designer.
-            </h1>
+            <h2>
+              Har du noen gang irritert deg over en app eller en nettside som
+              var vanskelig å bruke?
+            </h2>
             <p>
-              Jeg har jobbet i bransjen siden 2007, når jeg sitte alene og
-              reflektere tilbake, så er jeg er mest stolt av min evne til å
-              jobbe med andre folk, at de får tillit til meg, og gir meg mer
-              ansvar. Det er det som betyr mest for meg.
+              Det har skjedd med meg flere ganger, og var nettopp derfor jeg
+              begynte å jobbe som UX-designer. Siden 2007 har jeg jobbet for å
+              gjøre digitale opplevelser enklere og mer intuitive. På denne
+              nettsiden deler jeg tre ting:{" "}
+              <Link href="#work">arbeidet mitt</Link>,{" "}
+              <Link href="#work">litt om meg selv</Link> og{" "}
+              <Link href="#work">CV-en min.</Link>{" "}
             </p>
-            <Link className={styles.buttonDown} href="#work">
-              Se arbeidet mitt
-              <RiArrowRightDownLine className={styles.ml3} />
-            </Link>
           </div>
-          <figure>
-            <img src="martin.jpg" alt="William Martin Kariuki" />
-          </figure>
         </section>
         <section id="work" className={styles.featuredWork}>
-          <h2>Featured work</h2>
+          <h2>Dette har jeg jobbet med i det siste</h2>
           <div className={styles.workCategory}>
-            <h3>
-              Solo <span>side projects</span>
-            </h3>
+            <h3>På oppdrag som UX consulent</h3>
+            <ul>
+              <li>
+                <p>MealFinder app.</p>
+                <div className={styles.externalLinks}>
+                  <a href="https://mk-mealfinder.netlify.app/" target="_Blank">
+                    Live site <RiArrowRightUpLine />
+                  </a>
+                  <a
+                    href="https://github.com/martinkariuki7/mealfinder"
+                    target="_Blank"
+                    className={styles.ml3}
+                  >
+                    Repo <RiArrowRightUpLine />
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <p>A stylish & functional Todolist. </p>
+                <div className={styles.externalLinks}>
+                  <a href="https://mk-todolist.netlify.app/" target="_Blank">
+                    Live site <RiArrowRightUpLine />
+                  </a>
+                  <a
+                    href="https://github.com/martinkariuki7/todolist"
+                    target="_Blank"
+                    className={styles.ml3}
+                  >
+                    Repo <RiArrowRightUpLine />
+                  </a>
+                </div>
+              </li>
+              <li>
+                <p>New website for Solintegra. </p>
+                <div className={styles.externalLinks}>
+                  <a href="https://www.solintegra.no/" target="_Blank">
+                    Live site <RiArrowRightUpLine />
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div className={styles.workCategory}>
+            <h3>i fritid hjemme</h3>
             <ul>
               <li>
                 <p>A replica of the English premier league application.</p>
@@ -86,55 +125,11 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div className={styles.workCategory}>
-            <h3>
-              Joint <span>side projects</span>
-            </h3>
-            <ul>
-              <li>
-                <p>MealFinder app.</p>
-                <div className={styles.externalLinks}>
-                  <a href="https://mk-mealfinder.netlify.app/" target="_Blank">
-                    Live site <RiArrowRightUpLine />
-                  </a>
-                  <a
-                    href="https://github.com/martinkariuki7/mealfinder"
-                    target="_Blank"
-                    className={styles.ml3}
-                  >
-                    Repo <RiArrowRightUpLine />
-                  </a>
-                </div>
-              </li>
 
-              <li>
-                <p>A stylish & functional Todolist. </p>
-                <div className={styles.externalLinks}>
-                  <a href="https://mk-todolist.netlify.app/" target="_Blank">
-                    Live site <RiArrowRightUpLine />
-                  </a>
-                  <a
-                    href="https://github.com/martinkariuki7/todolist"
-                    target="_Blank"
-                    className={styles.ml3}
-                  >
-                    Repo <RiArrowRightUpLine />
-                  </a>
-                </div>
-              </li>
-              <li>
-                <p>New website for Solintegra. </p>
-                <div className={styles.externalLinks}>
-                  <a href="https://www.solintegra.no/" target="_Blank">
-                    Live site <RiArrowRightUpLine />
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div>
           <div className={styles.workCategory}>
             <h3>
-              Official <span>work</span>
+              Nettsider jeg har kodet selv{" "}
+              <span>altså ekte koding, ikke vibe-coding. </span> 😉
             </h3>
             <ul className={styles.wpThemes}>
               <li>

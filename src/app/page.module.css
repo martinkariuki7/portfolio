@@ -1,20 +1,21 @@
 .hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  width: min(100% - 2rem, 1280px);
-  margin-inline: auto;
-  padding: 5rem 0;
-}
-.heroContent {
-  width: min(100% - 2rem, 568px);
-  margin-inline: auto;
+  display: flex;
+  min-height: 90svh;
+  padding: 5rem 25vw 5rem 0;
+  align-items: end;
 }
 
 .hero img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.hero a,
+.hero a:hover {
+  color: navajowhite;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 .buttonDown {
