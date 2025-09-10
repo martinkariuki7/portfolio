@@ -46,28 +46,28 @@ export default function Home() {
                 UX researcher, Lyse Tele.
               </h3>
               <p>
-                Har nettopp levert innsikt fra et 12 måneders research oppdrag.
-                Arbeidet mitt skal hjelpe kundeserviceteamet å bytte ut eldre
-                programvare med trygghet om at den nye løsningen dekker
+                Har nettopp levert innsikt fra et ~ 12 måneders research
+                oppdrag. Arbeidet mitt skal hjelpe kundeserviceteamet å bytte ut
+                eldre programvare med trygghet om at den nye løsningen dekker
                 brukernes behov, samtidig som den støtter grunnleggende
                 forretningsprosesser.
               </p>
             </li>
             <li>
               <div className={styles.roundedFull}></div>
-              <time>20.10.24 - 13.10.2025</time>
+              <time>20/10/2024 - 13/10/2025</time>
               <h3>UX researcher - Lyse Tele. </h3>
             </li>
 
             <li>
               <div className={styles.roundedFull}></div>
-              <time>2023 - May 2025</time>
+              <time>04/04/2025 - 10/09/2025</time>
               <h3>UX designer - Altibox kundeutvikling </h3>
             </li>
 
             <li>
               <div className={styles.roundedFull}></div>
-              <time>20.03.2024 - 20.10.2024</time>
+              <time>20/03/2024 - 20/10/2024</time>
               <h3>Design lead - Altibox selvbetjening </h3>
             </li>
           </ol>
@@ -80,9 +80,9 @@ export default function Home() {
 
           <div className={styles.threeColumns}>
             <p>
-              En liste av noe av nettsider jeg har kodet selv da jeg jobbet som
-              utvikler i gode, gamle dager. Her må jeg presisere at jeg mener om
-              &quot;gode gamle koding&quot;, og ikke vibe coding. 😉
+              Noen av nettsidene jeg har kodet selv da jeg jobbet som utvikler
+              en stund siden. Her må jeg presisere at jeg mener &quot;gode gamle
+              koding&quot;, og ikke vibe coding. 😉
             </p>
             <ul className={styles.wpThemes}>
               <li>
@@ -147,8 +147,8 @@ export default function Home() {
         </section>
 
         <section>
-          <h3>Open source greier jeg har laget for gøy på fritiden</h3>
-          <ul>
+          <h3>Open source greier jeg har laget for gøy.</h3>
+          <ul className={styles.openSourceList}>
             <li>
               <p>
                 En webapp for å finne oppskrifter basert på ingredienser. <br />
@@ -183,11 +183,9 @@ export default function Home() {
               </div>
             </li>
             <li>
-              <p>New website for Solintegra. </p>
+              <p>Min portfolio </p>
               <div className={styles.externalLinks}>
-                <a href="https://www.solintegra.no/" target="_Blank">
-                  Live site <RiArrowRightUpLine />
-                </a>
+                <p>denne nettsiden</p>
               </div>
             </li>
           </ul>
