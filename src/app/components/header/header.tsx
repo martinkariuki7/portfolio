@@ -10,20 +10,10 @@ export default function Header() {
       </div>
       <nav className={styles.siteNav}>
         <ul>
-          <li>
-            <Link href="#work">Arbeid</Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.linkedin.com/in/william-martin-kariuki-74ab9713/details/experience/"
-              target="_Blank"
-            >
-              Arbeids erfaring <RiArrowRightUpLine />
-            </Link>
-          </li>
+          <li>Lights</li>
           <li>
             <Link href="cv.pdf" target="_Blank">
-              Last ned CV
+              CV
             </Link>
           </li>
         </ul>

@@ -5,12 +5,14 @@
   --body-font: "Lora", "Inter", sans-serif;
   --font-brush: "Alex Brush", "Inter", sans-serif;
   --dark-bg: #111111;
-  --green: #ccf2df;
+  --brand-color: springgreen;
+  --secondary-brand-color: rgba(237, 132, 224, 1);
 }
 .brushy-style {
   font-family: var(--font-brush), cursive;
   font-weight: 400;
   font-style: normal;
+  color: var(--secondary-brand-color);
 }
 * {
   box-sizing: border-box;
@@ -18,12 +20,23 @@
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
   font-family: var(--body-font), serif;
   background-color: var(--dark-bg);
   color: white;
-  padding: 1rem 1.5rem;
+}
+
+body p,
+li {
+  opacity: 0.65;
+}
+
+a {
+  opacity: initial;
+  color: var(--brand-color);
+  text-decoration: underline;
 }
 
 header,
@@ -32,46 +45,52 @@ footer {
   font-weight: 400;
 }
 
+hr {
+  opacity: 0.1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+}
+
+time {
+  font-size: 1rem;
+  font-family: var(--header-font);
+  text-transform: uppercase;
+}
+
 h1,
 h2,
 h3 {
   font-family: var(--header-font), serif;
   font-weight: 400;
   margin: 0 0 15px;
-  line-height: 1.05;
-  letter-spacing: -2px;
-  font-variation-settings: "wght" 450;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: clamp(2rem, 8vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -4px;
+  font-variation-settings: "wght" 450;
 }
 h2 {
-  font-size: clamp(2rem, 8vw, 6.5rem);
+  font-size: 2rem;
+  line-height: 1;
 }
 h3 {
-  font-size: clamp(1.5rem, 2vw, 3rem);
-}
-
-h3 span {
-  font-style: italic;
-  color: var(--green);
+  font-size: 1.75rem;
 }
 
 p,
 li {
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   font-weight: 400;
   line-height: 1.5;
 }
 
-body p {
-  opacity: 0.65;
-}
-
-@media (max-width: 795px) {
-  body,
-  html {
-    padding: 0;
-  }
+.italic {
+  font-style: italic;
+  font-weight: 300;
 }
