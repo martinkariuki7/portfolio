@@ -26,6 +26,7 @@ body {
   font-family: var(--body-font), serif;
   background-color: var(--dark-bg);
   color: white;
+  scroll-behavior: smooth;
 }
 
 body p,

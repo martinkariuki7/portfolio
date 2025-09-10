@@ -10,7 +10,6 @@ export default function Header() {
       </div>
       <nav className={styles.siteNav}>
         <ul>
-          <li>Lights</li>
           <li>
             <Link href="cv.pdf" target="_Blank">
               CV

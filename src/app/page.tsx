@@ -18,16 +18,24 @@ export default function Home() {
           <p>
             Det har skjedd med meg flere ganger. Som UX-designer bidrar jeg
             blant annet til å gjøre slike opplevelser bedre, og siden 2007 har
-            jeg jobbet med nettopp det. På denne nettsiden deler jeg tre ting:{" "}
-            <Link href="#work">arbeidet mitt</Link>,{" "}
-            <Link href="#work">litt om meg selv</Link> og{" "}
-            <Link href="#work">CV.</Link>{" "}
+            jeg jobbet med nettopp det. På denne nettsiden deler jeg tre ting:
+            arbeidet mitt, <Link href="#about">litt om meg selv</Link> og{" "}
+            <Link href="cv.pdf" target="_Blank">
+              CV
+            </Link>
           </p>
         </section>
 
-        <section>
+        <section id="#work">
           <h2>Jobberfaring</h2>
-
+          <p>
+            Jeg er ansatt som UX konsulent i{" "}
+            <a href="https://okse.no/" target="_Blank" area-hidden="true">
+              Okse.
+            </a>{" "}
+            Her er de siste prosjektene jeg har jobbet med på oppdrag for
+            kunder.
+          </p>
           <ol className={styles.experienceList}>
             <li>
               <div
@@ -72,9 +80,9 @@ export default function Home() {
 
           <div className={styles.threeColumns}>
             <p>
-              Noe nettsider jeg har kodet selv da jeg jobbet som utvikler i
-              gode, gamle dager. Jeg må også presisere at her snakkes om gode
-              gamle koding, og ikke vibe coding. 😉
+              En liste av noe av nettsider jeg har kodet selv da jeg jobbet som
+              utvikler i gode, gamle dager. Her må jeg presisere at jeg mener om
+              &quot;gode gamle koding&quot;, og ikke vibe coding. 😉
             </p>
             <ul className={styles.wpThemes}>
               <li>
@@ -185,7 +193,7 @@ export default function Home() {
           </ul>
         </section>
 
-        <section className={styles.bodyContent}>
+        <section id="about" className={styles.bodyContent}>
           <div>
             <h2>On a personal note</h2>
             <p>
@@ -210,7 +218,7 @@ export default function Home() {
           <div>
             <h2>Takk for oppmerksomhet</h2>
             <p>
-              Kult at du klarte å scrolle så langt! Håper du fant noe
+              Kult at du klarte å scrolle så langt! 👊 Håper du fant noe
               interessant. Lurer du på noe, er det bare å{" "}
               <a href="mailto:martinkariuki7@gmail.com">sende meg en e-post.</a>
             </p>
