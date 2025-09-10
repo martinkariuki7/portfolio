@@ -25,8 +25,6 @@ export default function Home() {
           </p>
         </section>
 
-        <hr />
-
         <section>
           <h2>Jobberfaring</h2>
 
@@ -49,191 +47,172 @@ export default function Home() {
             </li>
             <li>
               <div className={styles.roundedFull}></div>
+              <time>20.10.24 - 13.10.2025</time>
+              <h3>UX researcher - Lyse Tele. </h3>
+            </li>
+
+            <li>
+              <div className={styles.roundedFull}></div>
               <time>2023 - May 2025</time>
-              <h3>Staff Product Designer at </h3>
+              <h3>UX designer - Altibox kundeutvikling </h3>
+            </li>
+
+            <li>
+              <div className={styles.roundedFull}></div>
+              <time>20.03.2024 - 20.10.2024</time>
+              <h3>Design lead - Altibox selvbetjening </h3>
             </li>
           </ol>
         </section>
 
-        <section className={styles.bodyContent}>
+        <section>
           <div>
-            <h2>
-              <span className="brushy-style">01.</span> Arbeid
-            </h2>
+            <h2>Web utvikling</h2>
           </div>
 
           <div className={styles.threeColumns}>
-            <div>
-              <h3>Som UX konsulent i Okse</h3>
-              <ul>
-                <li>
-                  03/2025 <br /> Hjalp en telkomkunde med å bytte software 6mnd
-                  fortere en plannlagt etter grundig UX research.
-                </li>
-                <li>
-                  Hjalp en telkomkunde med å bytte software 6mnd fortere en
-                  plannlagt etter grundig UX research.
-                </li>
-                <li>
-                  Hjalp en telkomkunde med å bytte software 6mnd fortere en
-                  plannlagt etter grundig UX research.
-                </li>
-              </ul>
-            </div>
+            <p>
+              Noe nettsider jeg har kodet selv da jeg jobbet som utvikler i
+              gode, gamle dager. Jeg må også presisere at her snakkes om gode
+              gamle koding, og ikke vibe coding. 😉
+            </p>
+            <ul className={styles.wpThemes}>
+              <li>
+                <a href="https://basegruppen.no/" target="_Blank">
+                  Base <RiArrowRightUpLine />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.safari.africa/" target="_Blank">
+                  Safari Africa <RiArrowRightUpLine />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.solintegra.no/" target="_Blank">
+                  Solintegra <RiArrowRightUpLine />
+                </a>
+              </li>
+              <li>
+                <a href="https://designhotellet.no/en/" target="_Blank">
+                  Design Hotellet <RiArrowRightUpLine />
+                </a>
+              </li>
+              <li>
+                <a href="https://fjogstad-hus.no" target="_Blank">
+                  Fjogstad hus <RiArrowRightUpLine />
+                </a>
+              </li>
 
-            <div>
-              <h3>
-                En liste av nettsider jeg har kodet selv, altså gode gamle
-                koding, ikke vibe-coding. 😉
-              </h3>
-              <ul className={styles.wpThemes}>
-                <li>
-                  <a href="https://designhotellet.no/" target="_Blank">
-                    Design Hotellet <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://fjogstad-hus.no" target="_Blank">
-                    Fjogstad hus <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.safari.africa/" target="_Blank">
-                    Safari Africa <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.solintegra.no/" target="_Blank">
-                    Solintegra <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.hhkarosseri.no/" target="_Blank">
-                    Hellestø karosseri as <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.aktivhage.no/" target="_Blank">
-                    Aktiv Hage <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://kristoffers-hage.no/" target="_Blank">
-                    Kristoffers Hage <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://sirdaleiendom.no/" target="_Blank">
-                    Sirdal Eiendom <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://l91byvilla.no/" target="_Blank">
-                    L91 Byvilla <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://daleveien77.no/" target="_Blank">
-                    Daleveien 77 <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://jatunhoyden.no/" target="_Blank">
-                    Jåtunhøyden <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://jatun.no/" target="_Blank">
-                    Jåtun <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://ensign.no/" target="_Blank">
-                    Ensign <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://vester-hagen.no/" target="_Blank">
-                    Vesterhagen <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://osterhusarena.no/" target="_Blank">
-                    Østerhus Arena <RiArrowRightUpLine />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://toshmukei.com/" target="_Blank">
-                    Tosh Mukei portfolio <RiArrowRightUpLine />
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <a href="https://www.hhkarosseri.no/" target="_Blank">
+                  Hellestø karosseri as <RiArrowRightUpLine />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.aktivhage.no/" target="_Blank">
+                  Aktiv Hage <RiArrowRightUpLine />
+                </a>
+              </li>
 
-            <div>
-              <h3>Ting jeg har laget for gøy hjemme i fritiden.</h3>
-              <ul className={styles.wpThemes}>
-                <li>
-                  <p>
-                    En webapp for å finne oppskrifter basert på ingredienser.{" "}
-                    <br />
-                    <a
-                      href="https://mk-mealfinder.netlify.app/"
-                      target="_Blank"
-                    >
-                      Live site <RiArrowRightUpLine />
-                    </a>
-                    <a
-                      href="https://github.com/martinkariuki7/mealfinder"
-                      target="_Blank"
-                      className={styles.ml3}
-                    >
-                      Repo <RiArrowRightUpLine />
-                    </a>
-                  </p>
-
-                  <div className={styles.externalLinks}></div>
-                </li>
-
-                <li>
-                  <p>A stylish & functional Todolist. </p>
-                  <div className={styles.externalLinks}>
-                    <a href="https://mk-todolist.netlify.app/" target="_Blank">
-                      Live site <RiArrowRightUpLine />
-                    </a>
-                    <a
-                      href="https://github.com/martinkariuki7/todolist"
-                      target="_Blank"
-                      className={styles.ml3}
-                    >
-                      Repo <RiArrowRightUpLine />
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <p>New website for Solintegra. </p>
-                  <div className={styles.externalLinks}>
-                    <a href="https://www.solintegra.no/" target="_Blank">
-                      Live site <RiArrowRightUpLine />
-                    </a>
-                  </div>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <a href="https://sirdaleiendom.no/" target="_Blank">
+                  Sirdal Eiendom <RiArrowRightUpLine />
+                </a>
+              </li>
+              <li>
+                <a href="https://jatun.no/" target="_Blank">
+                  Jåtun <RiArrowRightUpLine />
+                </a>
+              </li>
+              <li>
+                <a href="https://ensign.no/prosjekter/" target="_Blank">
+                  Ensign <RiArrowRightUpLine />
+                </a>
+              </li>
+              <li>
+                <a href="https://osterhusarena.no/" target="_Blank">
+                  Østerhus Arena <RiArrowRightUpLine />
+                </a>
+              </li>
+            </ul>
           </div>
         </section>
-        <hr />
+
+        <section>
+          <h3>Open source greier jeg har laget for gøy på fritiden</h3>
+          <ul>
+            <li>
+              <p>
+                En webapp for å finne oppskrifter basert på ingredienser. <br />
+                <a href="https://mk-mealfinder.netlify.app/" target="_Blank">
+                  Live site <RiArrowRightUpLine />
+                </a>
+                <a
+                  href="https://github.com/martinkariuki7/mealfinder"
+                  target="_Blank"
+                  className={styles.ml3}
+                >
+                  Repo <RiArrowRightUpLine />
+                </a>
+              </p>
+
+              <div className={styles.externalLinks}></div>
+            </li>
+
+            <li>
+              <p>A stylish & functional Todolist. </p>
+              <div className={styles.externalLinks}>
+                <a href="https://mk-todolist.netlify.app/" target="_Blank">
+                  Live site <RiArrowRightUpLine />
+                </a>
+                <a
+                  href="https://github.com/martinkariuki7/todolist"
+                  target="_Blank"
+                  className={styles.ml3}
+                >
+                  Repo <RiArrowRightUpLine />
+                </a>
+              </div>
+            </li>
+            <li>
+              <p>New website for Solintegra. </p>
+              <div className={styles.externalLinks}>
+                <a href="https://www.solintegra.no/" target="_Blank">
+                  Live site <RiArrowRightUpLine />
+                </a>
+              </div>
+            </li>
+          </ul>
+        </section>
+
         <section className={styles.bodyContent}>
           <div>
-            <h2>
-              <span className="brushy-style">02.</span> Litt om meg
-            </h2>
+            <h2>On a personal note</h2>
             <p>
               {" "}
               Jeg har jobbet i bransjen siden 2007. Når jeg sitte alene og
-              reflektere tilbake, så er jeg er mest stolt av min evne til å
-              jobbe med andre folk, at de får tillit til meg, og gir meg mer
-              ansvar. Det er det som betyr mest for meg.
+              reflektere tilbake, så er jeg mest stolt av min evne til å jobbe
+              med andre folk, at de får tillit til meg, og gir meg mer ansvar.
+              Det er det som betyr mest for meg.
+            </p>
+            <p>
+              Jeg er vokst opp i Kenya, bo nå på Bryne sammen med kone og 2
+              gutter. Blir det litt stille i en samtale, begynner jeg av en
+              eller annen grunn å snakke om geitekjøtt. Ja! Du leste riktig.
+              Veldig rart, jeg vet! Jobber med saken. Jeg er glad i fotball,
+              både å diskutere og å spille, og favorittlaget mitt er Arsenal.
+              Next season it&#39;s ours!! 🏆{" "}
+            </p>
+          </div>
+        </section>
+
+        <section className={styles.bodyContent}>
+          <div>
+            <h2>Takk for oppmerksomhet</h2>
+            <p>
+              Kult at du klarte å scrolle så langt! Håper du fant noe
+              interessant. Lurer du på noe, er det bare å{" "}
+              <a href="mailto:martinkariuki7@gmail.com">sende meg en e-post.</a>
             </p>
           </div>
         </section>

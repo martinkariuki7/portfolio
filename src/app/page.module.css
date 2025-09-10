@@ -2,9 +2,23 @@
   position: relative;
   list-style-type: none;
   margin: 0;
-  padding: 2rem;
-  border-inline-start-width: 1px;
-  border-left: 1px solid #333;
+  padding: 2rem 2rem 0;
+  border-left: none;
+}
+
+.experienceList::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to bottom, #333 60%, rgba(51, 51, 51, 0) 100%);
+  pointer-events: none;
+}
+
+.experienceList li {
+  margin-bottom: 4rem;
 }
 
 .roundedFull {
@@ -68,6 +82,7 @@
 }
 
 .wpThemes a {
+  text-decoration: none;
   font-family: var(--header-font);
 }
 
@@ -77,17 +92,23 @@
   margin: 0 0 25px;
 }
 .wpThemes {
+  margin: 2rem 0 0;
   padding-left: 0;
   list-style-type: none;
 }
 .wpThemes li {
   border: 1px solid #2f2c2c;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
   border-radius: 5px;
   display: inline-block;
   color: var(--gray);
   font-size: 16px;
-  padding: 15px;
-  margin: 0 10px 10px 0;
+  padding: 15px 30px;
+  margin: 0 15px 15px 0;
+}
+
+.wpThemes li:hover {
+  border: 1px solid var(--brand-color);
 }
 
 @media (max-width: 1286px) {

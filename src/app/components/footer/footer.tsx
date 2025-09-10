@@ -38,18 +38,6 @@ export default function Footer() {
           </li>
         </ul>
       </nav>
-      <div className={styles.contact}>
-        <ul>
-          <li>
-            <a href="mailto:martinkariuki7@gmail.com?subject=Portfolio">
-              Email
-            </a>
-          </li>
-          <li>
-            <a href="tel:+4740092261">Phone</a>
-          </li>
-        </ul>
-      </div>
     </footer>
   );
 }
