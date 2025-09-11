@@ -1,22 +1,32 @@
+"use client";
+
 import Link from "next/link";
-import { RiArrowRightUpLine } from "react-icons/ri";
+import { useState, useEffect } from "react";
+import { Classic } from "@theme-toggles/react";
+import "@theme-toggles/react/css/Classic.css";
 import styles from "./header.module.css";
 
 export default function Header() {
+  const [isToggled, setToggle] = useState(true);
+  const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = () => {
+    setToggle(!isToggled);
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
+  // Dark/Light mode effect
+  useEffect(() => {
+    document.documentElement.setAttribute("data-bs-theme", theme);
+  }, [theme]);
+
   return (
     <header className={styles.siteHeader}>
       <div className={styles.siteBranding}>
-        <span>WMK — UX designer.</span>
+        <h1>WMK — UX designer.</h1>
       </div>
-      <nav className={styles.siteNav}>
-        <ul>
-          <li>
-            <Link href="cv.pdf" target="_Blank">
-              CV
-            </Link>
-          </li>
-        </ul>
-      </nav>
+
+      <Classic duration={750} toggled={isToggled} toggle={toggleTheme} />
     </header>
   );
 }

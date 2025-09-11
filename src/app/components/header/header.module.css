@@ -2,10 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2rem;
 }
 
-.siteBranding span {
+.siteBranding h1 {
   font-size: 1.25rem;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  font-variation-settings: "wght" 450;
 }
 
 .siteNav ul {
@@ -17,32 +21,5 @@
 }
 
 .siteNav ul li {
-  margin: 0 15px;
-  font-size: 1rem;
-}
-
-.siteNav ul li:last-child {
-  border: 1px solid white;
-  border-radius: 6px;
-  padding: 0.5rem 1rem;
-}
-
-.siteNav li a {
-  color: white;
-  text-decoration: none;
-}
-
-@media (max-width: 795px) {
-  .siteNav ul li:nth-child(-n + 2) {
-    display: none;
-  }
-  .siteHeader {
-    padding: 1rem;
-  }
-  .siteNav ul li {
-    margin: 0;
-  }
-  .siteBranding span {
-    font-size: 1rem;
-  }
+  display: inline-block;
 }

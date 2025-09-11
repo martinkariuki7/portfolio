@@ -11,10 +11,10 @@ export default function Home() {
       <Header />
       <main>
         <section>
-          <h1>
+          <p className="lead">
             Har du noen gang irritert deg over en app eller en nettside som var
             vanskelig å bruke?
-          </h1>
+          </p>
           <p>
             Det har skjedd med meg flere ganger. Som UX-designer bidrar jeg
             blant annet til å gjøre slike opplevelser bedre, og siden 2007 har

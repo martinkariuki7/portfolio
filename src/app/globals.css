@@ -5,7 +5,7 @@
   --body-font: "Lora", "Inter", sans-serif;
   --font-brush: "Alex Brush", "Inter", sans-serif;
   --dark-bg: #111111;
-  --brand-color: springgreen;
+  --link-color: springgreen;
   --secondary-brand-color: rgba(237, 132, 224, 1);
 }
 .brushy-style {
@@ -18,25 +18,50 @@
   box-sizing: border-box;
 }
 
-html,
+/* Base (light) theme */
+html[data-bs-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --link-color: crimson;
+  --brand-color: black;
+  --opacity: 0.85;
+}
+
+/* Dark theme */
+html[data-bs-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #f8f9fa;
+  --link-color: burlywood;
+  --brand-color: white;
+  --opacity: 0.65;
+}
+
 body {
   max-width: 768px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
   font-family: var(--body-font), serif;
-  background-color: var(--dark-bg);
-  color: white;
-  scroll-behavior: smooth;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle {
+  font-size: 2rem;
+}
+
+.theme-toggle--toggled svg {
+  fill: white;
 }
 
 body p,
 li {
-  opacity: 0.65;
+  opacity: var(--opacity);
 }
 
 a {
   opacity: initial;
-  color: var(--brand-color);
+  color: var(--link-color);
   text-decoration: underline;
 }
 
@@ -65,7 +90,6 @@ time {
   text-transform: uppercase;
 }
 
-h1,
 h2,
 h3 {
   font-family: var(--header-font), serif;
@@ -73,12 +97,15 @@ h3 {
   margin: 0 0 15px;
 }
 
-h1 {
+.lead {
+  font-family: var(--header-font), serif;
   font-size: clamp(2rem, 8vw, 5rem);
   line-height: 1.05;
   letter-spacing: -4px;
   font-variation-settings: "wght" 450;
+  opacity: 1;
 }
+
 h2 {
   font-size: 2rem;
   line-height: 1;
