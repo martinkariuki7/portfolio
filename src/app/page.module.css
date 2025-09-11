@@ -38,10 +38,38 @@
   border-color: var(--brand-color);
 }
 
-.openSourceList li {
-  display: flex;
+.openSourceList {
   margin: 0;
   padding: 0;
+}
+
+.openSourceList li {
+  border-bottom: 1px solid #333;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.openSourceList li h3 {
+  font-family: var(--body-font);
+  font-size: 1.45rem;
+}
+
+.openSourceList li h3,
+.openSourceList li a {
+  opacity: var(--opacity);
+  margin: 0;
+  padding: 0;
+}
+
+.openSourceList li a:first-child {
+  margin-right: 1rem;
+}
+
+.openSourceList img {
+  filter: var(--filter);
 }
 
 @media screen and (max-width: 1668px) {
@@ -116,9 +144,10 @@
 .wpThemes li:hover {
   background-color: var(--link-color);
   border: 1px solid var(--link-color);
+  opacity: 1;
 }
 .wpThemes li:hover a {
-  color: white;
+  color: black;
   opacity: 1;
 }
 

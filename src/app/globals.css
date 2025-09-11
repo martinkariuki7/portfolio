@@ -24,6 +24,7 @@ html[data-bs-theme="light"] {
   --text-color: #000000;
   --link-color: crimson;
   --brand-color: black;
+  --filter: unset;
   --opacity: 0.85;
 }
 
@@ -33,6 +34,7 @@ html[data-bs-theme="dark"] {
   --text-color: #f8f9fa;
   --link-color: burlywood;
   --brand-color: white;
+  --filter: sepia(1);
   --opacity: 0.65;
 }
 

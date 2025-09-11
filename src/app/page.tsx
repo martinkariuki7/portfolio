@@ -21,7 +21,7 @@ export default function Home() {
             jeg jobbet med nettopp det. På denne nettsiden deler jeg tre ting:
             arbeidet mitt, <Link href="#about">litt om meg selv</Link> og{" "}
             <Link href="cv.pdf" target="_Blank">
-              CV
+              CV.
             </Link>
           </p>
         </section>
@@ -150,42 +150,66 @@ export default function Home() {
           <h3>Open source greier jeg har laget for gøy.</h3>
           <ul className={styles.openSourceList}>
             <li>
-              <p>
-                En webapp for å finne oppskrifter basert på ingredienser. <br />
-                <a href="https://mk-mealfinder.netlify.app/" target="_Blank">
-                  Live site <RiArrowRightUpLine />
-                </a>
-                <a
-                  href="https://github.com/martinkariuki7/mealfinder"
-                  target="_Blank"
-                  className={styles.ml3}
-                >
-                  Repo <RiArrowRightUpLine />
-                </a>
-              </p>
+              <div>
+                <img src="task.gif" alt="" />
+              </div>
+              <div>
+                <h3>Todo-liste uten innlogging, lagrer i localStorage.</h3>
 
-              <div className={styles.externalLinks}></div>
-            </li>
-
-            <li>
-              <p>A stylish & functional Todolist. </p>
-              <div className={styles.externalLinks}>
-                <a href="https://mk-todolist.netlify.app/" target="_Blank">
-                  Live site <RiArrowRightUpLine />
-                </a>
-                <a
-                  href="https://github.com/martinkariuki7/todolist"
-                  target="_Blank"
-                  className={styles.ml3}
-                >
-                  Repo <RiArrowRightUpLine />
-                </a>
+                <div>
+                  <a
+                    href="https://github.com/martinkariuki7/mealfinder"
+                    target="_Blank"
+                    className={styles.ml3}
+                  >
+                    Repo <RiArrowRightUpLine />
+                  </a>
+                </div>
               </div>
             </li>
             <li>
-              <p>Min portfolio </p>
-              <div className={styles.externalLinks}>
-                <p>denne nettsiden</p>
+              <div>
+                <img src="food.gif" alt="" />
+              </div>
+              <div>
+                <h3>Web-app som hjelper meg å finne oppskrifter.</h3>
+
+                <div>
+                  <a href="https://mk-mealfinder.netlify.app/" target="_Blank">
+                    Live site <RiArrowRightUpLine />
+                  </a>
+                  <a
+                    href="https://github.com/martinkariuki7/mealfinder"
+                    target="_Blank"
+                    className={styles.ml3}
+                  >
+                    Repo <RiArrowRightUpLine />
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="photo.gif" alt="" />
+              </div>
+              <div>
+                <h3>
+                  Prøvde å lage et bedre bildebibliotek etter dårlig skolefoto
+                  opplevelse.
+                </h3>
+
+                <div>
+                  <a href="https://mk-mealfinder.netlify.app/" target="_Blank">
+                    Live site <RiArrowRightUpLine />
+                  </a>
+                  <a
+                    href="https://github.com/martinkariuki7/mealfinder"
+                    target="_Blank"
+                    className={styles.ml3}
+                  >
+                    Repo <RiArrowRightUpLine />
+                  </a>
+                </div>
               </div>
             </li>
           </ul>
