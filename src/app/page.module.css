@@ -60,7 +60,7 @@
 .openSourceList li h3,
 .openSourceList li a {
   opacity: var(--opacity);
-  margin: 0;
+  margin: 0 0 5px;
   padding: 0;
 }
 

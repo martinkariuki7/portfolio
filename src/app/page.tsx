@@ -155,10 +155,16 @@ export default function Home() {
               </div>
               <div>
                 <h3>Todo-liste uten innlogging, lagrer i localStorage.</h3>
-
                 <div>
                   <a
-                    href="https://github.com/martinkariuki7/mealfinder"
+                    href="https://mk-todolist.netlify.app/"
+                    target="_Blank"
+                    className={styles.ml3}
+                  >
+                    Live site <RiArrowRightUpLine />
+                  </a>
+                  <a
+                    href="https://github.com/martinkariuki7/todolist"
                     target="_Blank"
                     className={styles.ml3}
                   >
@@ -199,11 +205,14 @@ export default function Home() {
                 </h3>
 
                 <div>
-                  <a href="https://mk-mealfinder.netlify.app/" target="_Blank">
+                  <a
+                    href="https://mk-react-photostudio.netlify.app/"
+                    target="_Blank"
+                  >
                     Live site <RiArrowRightUpLine />
                   </a>
                   <a
-                    href="https://github.com/martinkariuki7/mealfinder"
+                    href="https://github.com/martinkariuki7/react-photostudio/"
                     target="_Blank"
                     className={styles.ml3}
                   >
