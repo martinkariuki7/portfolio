@@ -6,11 +6,11 @@
   margin-top: 5rem;
   margin-inline: auto;
   padding: 3rem 0 2rem;
-  border-top: 1px solid #333;
+  border-top: 1px solid var(--border-color);
 }
 
 .siteFooter a {
-  color: white;
+  color: var(--body-color);
   text-decoration: none;
 }
 

@@ -13,7 +13,11 @@
   left: 0;
   width: 1px;
   height: 100%;
-  background: linear-gradient(to bottom, #333 60%, rgba(51, 51, 51, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    var(--border-color) 60%,
+    rgba(51, 51, 51, 0) 100%
+  );
   pointer-events: none;
 }
 
@@ -44,7 +48,7 @@
 }
 
 .openSourceList li {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--border-color);
   opacity: 1;
   display: flex;
   align-items: center;
@@ -70,13 +74,6 @@
 
 .openSourceList img {
   filter: var(--filter);
-}
-
-@media screen and (max-width: 1668px) {
-  .bodyContent {
-    grid-template-columns: 1fr;
-    padding: 5rem 2rem 5rem 0;
-  }
 }
 
 .buttonDown {
@@ -109,7 +106,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #333;
+  border-top: 1px solid var(--border-color);
   padding: 0.75rem 0;
   font-size: 1rem;
   opacity: 0.85;

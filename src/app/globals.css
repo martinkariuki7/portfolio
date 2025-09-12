@@ -26,6 +26,7 @@ html[data-bs-theme="light"] {
   --brand-color: black;
   --filter: unset;
   --opacity: 0.85;
+  --border-color: #ccc;
 }
 
 /* Dark theme */
@@ -36,6 +37,7 @@ html[data-bs-theme="dark"] {
   --brand-color: white;
   --filter: sepia(1);
   --opacity: 0.65;
+  --border-color: #2f2c2c;
 }
 
 body {
@@ -76,7 +78,7 @@ footer {
 hr {
   border: none;
   height: 1px;
-  background-color: #333;
+  background-color: var(--border-color);
   margin: 1rem 0;
 }
 
