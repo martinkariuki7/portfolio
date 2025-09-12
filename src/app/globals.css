@@ -1,35 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital@0;1&display=swap");
 
 :root {
   --header-font: "Inter", sans-serif;
   --body-font: "Lora", "Inter", sans-serif;
-  --font-brush: "Alex Brush", "Inter", sans-serif;
-  --dark-bg: #111111;
-  --link-color: springgreen;
-  --secondary-brand-color: rgba(237, 132, 224, 1);
-}
-.brushy-style {
-  font-family: var(--font-brush), cursive;
-  font-weight: 400;
-  font-style: normal;
-  color: var(--secondary-brand-color);
 }
 * {
   box-sizing: border-box;
 }
 
-/* Base (light) theme */
+/* Light mode */
 html[data-bs-theme="light"] {
   --bg-color: #ffffff;
   --text-color: #000000;
-  --link-color: crimson;
+  --link-color: sienna;
   --brand-color: black;
   --filter: unset;
   --opacity: 0.85;
   --border-color: #ccc;
 }
 
-/* Dark theme */
+/* Dark mode */
 html[data-bs-theme="dark"] {
   --bg-color: #121212;
   --text-color: #f8f9fa;
@@ -44,7 +34,7 @@ body {
   max-width: 768px;
   margin: 0 auto;
   padding: 1rem 1.5rem;
-  font-family: var(--body-font), serif;
+  font-family: var(--body-font), var(--header-font), serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -64,7 +54,6 @@ li {
 }
 
 a {
-  opacity: initial;
   color: var(--link-color);
   text-decoration: underline;
 }
@@ -98,16 +87,8 @@ h2,
 h3 {
   font-family: var(--header-font), serif;
   font-weight: 400;
-  margin: 0 0 15px;
-}
-
-.lead {
-  font-family: var(--header-font), serif;
-  font-size: clamp(2rem, 8vw, 5rem);
-  line-height: 1.05;
-  letter-spacing: -4px;
   font-variation-settings: "wght" 450;
-  opacity: 1;
+  margin: 0 0 15px;
 }
 
 h2 {
@@ -129,4 +110,13 @@ li {
 .italic {
   font-style: italic;
   font-weight: 300;
+}
+
+.lead {
+  font-family: var(--header-font), serif;
+  font-size: clamp(2rem, 8vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -4px;
+  font-variation-settings: "wght" 450;
+  opacity: 1;
 }

@@ -1,11 +1,9 @@
 .siteFooter {
-  width: min(100% - 2rem, 1330px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
-  margin-inline: auto;
-  padding: 3rem 0 2rem;
+  margin-top: 3rem;
+  padding: 3rem 0;
   border-top: 1px solid var(--border-color);
 }
 

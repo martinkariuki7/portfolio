@@ -84,7 +84,7 @@ export default function Home() {
               en stund siden. Her må jeg presisere at jeg mener &quot;gode gamle
               koding&quot;, og ikke vibe coding. 😉
             </p>
-            <ul className={styles.wpThemes}>
+            <ul className={styles.websites}>
               <li>
                 <a href="https://basegruppen.no/" target="_Blank">
                   Base <RiArrowRightUpLine />
@@ -147,7 +147,7 @@ export default function Home() {
         </section>
 
         <section>
-          <h3>Open source greier jeg har laget for gøy.</h3>
+          <h2>Open source greier jeg har laget for gøy.</h2>
           <ul className={styles.openSourceList}>
             <li>
               <div>
