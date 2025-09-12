@@ -113,7 +113,8 @@ export default function Home() {
 
               <li>
                 <a href="https://www.hhkarosseri.no/" target="_Blank">
-                  Hellestø karosseri as <RiArrowRightUpLine />
+                  Hellestø karosseri
+                  <RiArrowRightUpLine />
                 </a>
               </li>
               <li>
@@ -150,9 +151,7 @@ export default function Home() {
           <h2>Open source greier jeg har laget for gøy.</h2>
           <ul className={styles.openSourceList}>
             <li>
-              <div>
-                <img src="task.gif" alt="" />
-              </div>
+              <img src="task.gif" role="presentation" />
               <div>
                 <h3>Todo-liste uten innlogging, lagrer i localStorage.</h3>
                 <div>
@@ -174,9 +173,7 @@ export default function Home() {
               </div>
             </li>
             <li>
-              <div>
-                <img src="food.gif" alt="" />
-              </div>
+              <img src="food.gif" role="presentation" />
               <div>
                 <h3>Web-app som hjelper meg å finne oppskrifter.</h3>
 
@@ -195,9 +192,7 @@ export default function Home() {
               </div>
             </li>
             <li>
-              <div>
-                <img src="photo.gif" alt="" />
-              </div>
+              <img src="photo.gif" role="presentation" />
               <div>
                 <h3>
                   Prøvde å lage et bedre bildebibliotek etter dårlig skolefoto

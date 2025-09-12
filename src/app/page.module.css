@@ -106,3 +106,19 @@
   border: 1px solid var(--link-color);
   opacity: 1;
 }
+
+@media screen and (max-width: 650px) {
+  .openSourceList img {
+    display: none;
+  }
+  .websites li a {
+    padding: 10px 20px;
+  }
+  .openSourceList li {
+    padding: 2rem 0;
+  }
+  .openSourceList li h3,
+  .openSourceList li a {
+    margin: 0 0 15px;
+  }
+}
