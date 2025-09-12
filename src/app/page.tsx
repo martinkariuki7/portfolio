@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { RiArrowRightDownLine, RiArrowRightUpLine } from "react-icons/ri";
+import { RiArrowRightUpLine } from "react-icons/ri";
 import Header from "./components/header/header";
 import styles from "./page.module.css";
 import Footer from "./components/footer/footer";
@@ -86,61 +86,113 @@ export default function Home() {
             </p>
             <ul className={styles.websites}>
               <li>
-                <a href="https://basegruppen.no/" target="_Blank">
-                  Base <RiArrowRightUpLine />
+                <a
+                  href="https://basegruppen.no/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Base{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                 </a>
               </li>
               <li>
-                <a href="https://www.safari.africa/" target="_Blank">
-                  Safari Africa <RiArrowRightUpLine />
+                <a
+                  href="https://www.safari.africa/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Safari Africa{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                 </a>
               </li>
               <li>
-                <a href="https://www.solintegra.no/" target="_Blank">
-                  Solintegra <RiArrowRightUpLine />
+                <a
+                  href="https://www.solintegra.no/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Solintegra{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                 </a>
               </li>
               <li>
-                <a href="https://designhotellet.no/en/" target="_Blank">
-                  Design Hotellet <RiArrowRightUpLine />
+                <a
+                  href="https://designhotellet.no/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Design Hotellet{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                 </a>
               </li>
               <li>
-                <a href="https://fjogstad-hus.no" target="_Blank">
-                  Fjogstad hus <RiArrowRightUpLine />
-                </a>
-              </li>
-
-              <li>
-                <a href="https://www.hhkarosseri.no/" target="_Blank">
-                  Hellestø karosseri
-                  <RiArrowRightUpLine />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.aktivhage.no/" target="_Blank">
-                  Aktiv Hage <RiArrowRightUpLine />
-                </a>
-              </li>
-
-              <li>
-                <a href="https://sirdaleiendom.no/" target="_Blank">
-                  Sirdal Eiendom <RiArrowRightUpLine />
+                <a
+                  href="https://fjogstad-hus.no"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Fjogstad hus{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                 </a>
               </li>
               <li>
-                <a href="https://jatun.no/" target="_Blank">
-                  Jåtun <RiArrowRightUpLine />
+                <a
+                  href="https://www.hhkarosseri.no/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Hellestø karosseri{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                 </a>
               </li>
               <li>
-                <a href="https://ensign.no/prosjekter/" target="_Blank">
-                  Ensign <RiArrowRightUpLine />
+                <a
+                  href="https://www.aktivhage.no/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Aktiv Hage{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                 </a>
               </li>
               <li>
-                <a href="https://osterhusarena.no/" target="_Blank">
-                  Østerhus Arena <RiArrowRightUpLine />
+                <a
+                  href="https://sirdaleiendom.no/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sirdal Eiendom{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://jatun.no/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Jåtun{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://ensign.no/prosjekter/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ensign{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://osterhusarena.no/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Østerhus Arena{" "}
+                  <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                 </a>
               </li>
             </ul>
@@ -157,17 +209,20 @@ export default function Home() {
                 <div>
                   <a
                     href="https://mk-todolist.netlify.app/"
-                    target="_Blank"
-                    className={styles.ml3}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Live site <RiArrowRightUpLine />
+                    Live site{" "}
+                    <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                   </a>
+
                   <a
                     href="https://github.com/martinkariuki7/todolist"
-                    target="_Blank"
-                    className={styles.ml3}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Repo <RiArrowRightUpLine />
+                    Repo{" "}
+                    <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                   </a>
                 </div>
               </div>
@@ -178,15 +233,22 @@ export default function Home() {
                 <h3>Web-app som hjelper meg å finne oppskrifter.</h3>
 
                 <div>
-                  <a href="https://mk-mealfinder.netlify.app/" target="_Blank">
-                    Live site <RiArrowRightUpLine />
+                  <a
+                    href="https://mk-mealfinder.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live site{" "}
+                    <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                   </a>
                   <a
                     href="https://github.com/martinkariuki7/mealfinder"
-                    target="_Blank"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={styles.ml3}
                   >
-                    Repo <RiArrowRightUpLine />
+                    Repo{" "}
+                    <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                   </a>
                 </div>
               </div>
@@ -202,16 +264,20 @@ export default function Home() {
                 <div>
                   <a
                     href="https://mk-react-photostudio.netlify.app/"
-                    target="_Blank"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    Live site <RiArrowRightUpLine />
+                    Live site{" "}
+                    <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                   </a>
                   <a
                     href="https://github.com/martinkariuki7/react-photostudio/"
-                    target="_Blank"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={styles.ml3}
                   >
-                    Repo <RiArrowRightUpLine />
+                    Repo{" "}
+                    <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                   </a>
                 </div>
               </div>

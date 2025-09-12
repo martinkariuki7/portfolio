@@ -13,27 +13,41 @@ export default function Footer() {
           <li>
             <a
               href="https://no.linkedin.com/in/william-martin-kariuki-74ab9713"
-              target="_Blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Martin Kariuki's LinkedIn profile"
             >
-              <SiLinkedin />
+              <SiLinkedin aria-hidden="true" focusable="false" />
             </a>
           </li>
           <li>
-            <a href="https://github.com/martinkariuki7" target="_Blank">
-              <SiGithub />
+            <a
+              href="https://github.com/martinkariuki7"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Martin Kariuki's GitHub profile"
+            >
+              <SiGithub aria-hidden="true" focusable="false" />
             </a>
           </li>
           <li>
             <a
               href="https://codepen.io/martinkariuki7-the-looper"
-              target="_Blank"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Martin Kariuki's CodePen profile"
             >
-              <SiCodepen />
+              <SiCodepen aria-hidden="true" focusable="false" />
             </a>
           </li>
           <li>
-            <a href="https://dribbble.com/martinkariuki7" target="_Blank">
-              <SiDribbble />
+            <a
+              href="https://dribbble.com/martinkariuki7"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit Martin Kariuki's Dribbble profile"
+            >
+              <SiDribbble aria-hidden="true" focusable="false" />
             </a>
           </li>
         </ul>
