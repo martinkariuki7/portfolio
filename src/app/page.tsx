@@ -287,7 +287,7 @@ export default function Home() {
 
         <section id="about" className={styles.bodyContent}>
           <div>
-            <h2>On a personal note</h2>
+            <h2>Litt om meg</h2>
             <p>
               {" "}
               Jeg har jobbet i bransjen siden 2007. Når jeg sitte alene og
