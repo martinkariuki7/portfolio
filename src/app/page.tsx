@@ -47,8 +47,8 @@ export default function Home() {
               </h3>
               <p>
                 Har nettopp levert innsikt fra et ~ 12 måneders research
-                oppdrag. Arbeidet mitt skal hjelpe kundeserviceteamet å bytte ut
-                eldre programvare med trygghet om at den nye løsningen dekker
+                oppdrag. Arbeidet mitt skal hjelpe Lyse å bytte ut eldre
+                programvare med trygghet om at den nye løsningen dekker
                 brukernes behov, samtidig som den støtter grunnleggende
                 forretningsprosesser.
               </p>
