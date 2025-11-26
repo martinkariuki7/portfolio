@@ -55,12 +55,6 @@ export default function Home() {
             </li>
             <li>
               <div className={styles.roundedFull}></div>
-              <time>20/10/2024 - 13/10/2025</time>
-              <h3>UX researcher - Lyse Tele. </h3>
-            </li>
-
-            <li>
-              <div className={styles.roundedFull}></div>
               <time>04/04/2025 - 10/09/2025</time>
               <h3>UX designer - Altibox kundeutvikling </h3>
             </li>
@@ -299,9 +293,9 @@ export default function Home() {
               Jeg er vokst opp i Kenya, bo nå på Bryne sammen med kone og 2
               gutter. Blir det litt stille i en samtale, begynner jeg av en
               eller annen grunn å snakke om geitekjøtt. Ja! Du leste riktig.
-              Veldig rart, jeg vet! Jobber med saken. Jeg er glad i fotball,
-              både å diskutere og å spille, og favorittlaget mitt er Arsenal.
-              Next season it&#39;s ours!! 🏆{" "}
+              Veldig rart, jeg vet! Jeg er glad i fotball, både å diskutere og å
+              spille, og favorittlaget mitt er Arsenal. Next season it&#39;s
+              ours!! 🏆{" "}
             </p>
           </div>
         </section>
