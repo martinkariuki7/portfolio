@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <header className={styles.siteHeader}>
       <div className={styles.siteBranding}>
-        <h1>WMK — UX designer.</h1>
+        <h1>WMK.</h1>
       </div>
 
       <Classic duration={750} toggled={isToggled} toggle={toggleTheme} />
