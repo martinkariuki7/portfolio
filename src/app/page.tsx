@@ -67,6 +67,11 @@ export default function Home() {
               <h3>Design lead - Altibox selvbetjening </h3>
             </li>
           </ol>
+          <p>
+            <Link href="cv.pdf" target="_Blank">
+              Last ned full CV ↗
+            </Link>
+          </p>
         </section>
 
         <section>

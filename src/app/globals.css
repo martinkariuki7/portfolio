@@ -69,6 +69,7 @@ li {
 a {
   color: var(--link-color);
   text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 header,
