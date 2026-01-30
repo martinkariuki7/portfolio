@@ -58,12 +58,12 @@ export default function Header() {
     gsap.set(fullSplit.words, {
       rotationX: -90,
       transformOrigin: "50% 50% -30px",
-      opacity: 0
+      opacity: 0,
     });
     gsap.set(shortSplit.words, {
       rotationX: 0,
       transformOrigin: "50% 50% -30px",
-      opacity: 1
+      opacity: 1,
     });
 
     const handleMouseEnter = () => {
@@ -75,7 +75,7 @@ export default function Header() {
         opacity: 0,
         duration: 0.8,
         ease: "power3",
-        stagger: 0.1
+        stagger: 0.1,
       });
 
       // Rotate full text in
@@ -84,7 +84,7 @@ export default function Header() {
         opacity: 1,
         duration: 0.8,
         ease: "power3",
-        stagger: 0.1
+        stagger: 0.1,
       });
     };
 
@@ -97,7 +97,7 @@ export default function Header() {
         opacity: 0,
         duration: 0.8,
         ease: "power3",
-        stagger: 0.1
+        stagger: 0.1,
       });
 
       // Rotate short text in
@@ -106,7 +106,7 @@ export default function Header() {
         opacity: 1,
         duration: 0.8,
         ease: "power3",
-        stagger: 0.1
+        stagger: 0.1,
       });
     };
 
@@ -130,7 +130,7 @@ export default function Header() {
     <header className={styles.siteHeader}>
       <div className={styles.siteBranding} ref={containerRef}>
         <h1 ref={shortTextRef} className={styles.shortText}>
-          WMK.
+          WMK
         </h1>
         <h1 ref={fullTextRef} className={styles.fullText} aria-hidden="true">
           William Martin Kariuki
