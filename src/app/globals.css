@@ -131,7 +131,7 @@ li {
 .lead {
   font-family: var(--header-font), serif;
   font-size: clamp(2rem, 8vw, 5rem);
-  line-height: 1.15;
+  line-height: 1.05;
   letter-spacing: -2px;
   font-variation-settings: "wght" 450;
   opacity: 1;
