@@ -42,26 +42,28 @@ export default function Home() {
                 className={`${styles.roundedFull} ${styles.currentTime}`}
               ></div>
               <time>I dag ({new Date().toLocaleDateString()})</time>
-              <h3 className={styles.experienceTitle}>
-                UX researcher, Lyse Tele.
-              </h3>
+              <h3 className={styles.experienceTitle}>Uten oppdrag</h3>
               <p>
-                Har nettopp levert innsikt fra et ~ 12 måneders research
-                oppdrag. Arbeidet mitt skal hjelpe Lyse å bytte ut eldre
-                programvare med trygghet om at den nye løsningen dekker
-                brukernes behov, samtidig som den støtter grunnleggende
-                forretningsprosesser.
+                Har ikke oppdrag akkurat nå, så bruker tiden på kompetanseheving
+                og tester bruk av KI i produktutvikling.{" "}
+                <a href="mailto:martin.kariuki@okse.no">
+                  Ta kontakt for samarbeid
+                </a>
               </p>
             </li>
             <li>
               <div className={styles.roundedFull}></div>
-              <time>04/04/2025 - 10/09/2025</time>
-              <h3>UX designer - Altibox kundeutvikling </h3>
+              <time>Aug 2025 - des 2025</time>
+              <h3>Senior UX designer - Altibox privat</h3>
             </li>
-
             <li>
               <div className={styles.roundedFull}></div>
-              <time>20/03/2024 - 20/10/2024</time>
+              <time>Okt 2024 - aug 2025</time>
+              <h3>Senior UX researcher - Lyse kundeservice </h3>
+            </li>
+            <li>
+              <div className={styles.roundedFull}></div>
+              <time>Mars 2024 - okt 2024</time>
               <h3>Design lead - Altibox selvbetjening </h3>
             </li>
           </ol>

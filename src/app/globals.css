@@ -47,7 +47,7 @@ html[data-bs-theme="dark"] {
   --link-color: burlywood;
   --brand-color: white;
   --filter: sepia(1);
-  --opacity: 0.65;
+  --opacity: 0.75;
   --border-color: #2f2c2c;
 
   background-color: var(--bg-color); /* ensure html bg updates */

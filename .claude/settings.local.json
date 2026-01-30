@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "WebFetch(domain:gsap.com)",
+      "WebSearch",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
