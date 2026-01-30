@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className={styles.siteFooter}>
       <div className={styles.footerBranding}>
-        <span>© WMK — UX designer.</span>
+        <span>© WMK - UX designer.</span>
       </div>
       <nav className={styles.footerNav}>
         <ul>
