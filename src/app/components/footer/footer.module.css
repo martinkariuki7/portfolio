@@ -39,7 +39,7 @@
 @media (max-width: 650px) {
   .siteFooter {
     flex-direction: column-reverse;
-    align-items: baseline;
+    align-items: flex-start;
   }
   .footerNav ul {
     margin-bottom: 25px;

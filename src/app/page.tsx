@@ -43,7 +43,7 @@ export default function Home() {
               ></div>
               <time>I dag ({new Date().toLocaleDateString()})</time>
               <h3 className={styles.experienceTitle}>Uten oppdrag</h3>
-              <p>
+              <p className={styles.fullOpacity}>
                 Har ikke oppdrag akkurat nå, så bruker tiden på kompetanseheving
                 og tester bruk av KI i produktutvikling.{" "}
                 <a href="mailto:martin.kariuki@okse.no">

@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital@0;1&display=swap");
 
 :root {
-  --header-font: "Inter", sans-serif;
-  --body-font: "Lora", "Inter", sans-serif;
+  --header-font: "DM Sans", sans-serif;
+  --body-font: "Lora", "DM Sans", sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -19,7 +19,7 @@ html {
 body {
   max-width: 768px;
   margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem;
   font-family: var(--body-font), var(--header-font), serif;
   background-color: transparent; /* html handles full viewport background */
   color: var(--text-color, #000); /* fallback text color */
@@ -34,7 +34,7 @@ html[data-bs-theme="light"] {
   --link-color: sienna;
   --brand-color: black;
   --filter: unset;
-  --opacity: 0.85;
+  --opacity: 0.8;
   --border-color: #ccc;
 
   background-color: var(--bg-color); /* ensure html bg updates */
@@ -47,7 +47,7 @@ html[data-bs-theme="dark"] {
   --link-color: burlywood;
   --brand-color: white;
   --filter: sepia(1);
-  --opacity: 0.75;
+  --opacity: 0.8;
   --border-color: #2f2c2c;
 
   background-color: var(--bg-color); /* ensure html bg updates */
@@ -119,7 +119,7 @@ p,
 li {
   font-size: 1.45rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.6;
   margin: 10px 0 25px;
 }
 
@@ -131,8 +131,8 @@ li {
 .lead {
   font-family: var(--header-font), serif;
   font-size: clamp(2rem, 8vw, 5rem);
-  line-height: 1.05;
-  letter-spacing: -4px;
+  line-height: 1.15;
+  letter-spacing: -2px;
   font-variation-settings: "wght" 450;
   opacity: 1;
 }
