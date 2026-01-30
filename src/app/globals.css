@@ -57,12 +57,10 @@ html[data-bs-theme="dark"] {
   font-size: 2rem;
 }
 
-.theme-toggle svg {
+.theme-toggle svg,
+.theme-toggle svg path {
   fill: var(--brand-color);
-}
-
-.theme-toggle--toggled svg {
-  fill: var(--brand-color);
+  stroke: var(--brand-color);
 }
 
 body p,
