@@ -21,10 +21,14 @@ export default function RootLayout({
             __html: `
               (function() {
                 try {
-                  var theme = localStorage.getItem('theme') || 'dark';
+                  var theme = localStorage.getItem('theme');
+                  if (!theme) {
+                    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+                    theme = prefersDark.matches ? 'dark' : 'light';
+                  }
                   document.documentElement.setAttribute('data-bs-theme', theme);
                 } catch(e) {
-                  document.documentElement.setAttribute('data-bs-theme', 'dark');
+                  document.documentElement.setAttribute('data-bs-theme', 'light');
                 }
               })();
             `,

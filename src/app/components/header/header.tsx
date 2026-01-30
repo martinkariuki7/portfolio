@@ -9,20 +9,26 @@ import SplitType from "split-type";
 import styles from "./header.module.css";
 
 export default function Header() {
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
-  const [isToggled, setToggle] = useState(true);
+  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [isToggled, setToggle] = useState(false);
   const shortTextRef = useRef<HTMLHeadingElement>(null);
   const fullTextRef = useRef<HTMLHeadingElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  //Load theme from localStorage on first mount
+  //Load theme from localStorage or system preference on first mount
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
 
+    let currentTheme: "light" | "dark";
     if (savedTheme) {
-      setTheme(savedTheme);
-      setToggle(savedTheme === "dark");
+      currentTheme = savedTheme;
+    } else {
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
+      currentTheme = prefersDark.matches ? "dark" : "light";
     }
+
+    setTheme(currentTheme);
+    setToggle(currentTheme === "dark");
   }, []);
 
   //Apply theme + store in localStorage
