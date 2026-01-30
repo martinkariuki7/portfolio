@@ -5,11 +5,46 @@
   margin-top: 2rem;
 }
 
+.siteBranding {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
 .siteBranding h1 {
   font-size: 1.25rem;
   line-height: 1.05;
   letter-spacing: -1px;
   font-variation-settings: "wght" 450;
+  margin: 0;
+  overflow: hidden;
+  height: 1.3125rem;
+  perspective: 500px;
+}
+
+/* Prevent inherited transitions from interfering */
+.siteBranding h1,
+.siteBranding h1 * {
+  transition: none !important;
+}
+
+.shortText {
+  position: relative;
+  visibility: visible;
+}
+
+.fullText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  width: max-content;
+}
+
+/* Performance optimization for character animations */
+.siteBranding h1 .char {
+  display: inline-block;
+  will-change: transform, opacity;
 }
 
 .siteNav ul {
