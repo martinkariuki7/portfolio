@@ -57,8 +57,12 @@ html[data-bs-theme="dark"] {
   font-size: 2rem;
 }
 
+.theme-toggle svg {
+  fill: var(--brand-color);
+}
+
 .theme-toggle--toggled svg {
-  fill: white;
+  fill: var(--brand-color);
 }
 
 body p,

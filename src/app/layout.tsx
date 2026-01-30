@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-bs-theme="dark">
+    <html lang="en" suppressHydrationWarning>
       <head>
         {/* Run before first paint to prevent flash */}
         <script
@@ -21,13 +21,11 @@ export default function RootLayout({
             __html: `
               (function() {
                 try {
-                  var theme = localStorage.getItem('theme');
-                  if (!theme) {
-                    var m = window.matchMedia('(prefers-color-scheme: dark)');
-                    theme = m.matches ? 'dark' : 'light';
-                  }
+                  var theme = localStorage.getItem('theme') || 'dark';
                   document.documentElement.setAttribute('data-bs-theme', theme);
-                } catch(e) {}
+                } catch(e) {
+                  document.documentElement.setAttribute('data-bs-theme', 'dark');
+                }
               })();
             `,
           }}

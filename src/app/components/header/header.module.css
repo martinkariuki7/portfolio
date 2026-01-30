@@ -41,6 +41,13 @@
   width: max-content;
 }
 
+/* Hide full text on mobile (GSAP only initializes on desktop) */
+@media screen and (max-width: 767px) {
+  .fullText {
+    display: none;
+  }
+}
+
 /* Performance optimization for character animations */
 .siteBranding h1 .char {
   display: inline-block;
