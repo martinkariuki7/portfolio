@@ -201,28 +201,19 @@ export default function Home() {
         </section>
 
         <section>
-          <h2>Open source greier jeg har laget for gøy.</h2>
+          <h2>Andre greier jeg har laget for gøy.</h2>
           <ul className={styles.openSourceList}>
             <li>
               <img src="task.gif" role="presentation" />
               <div>
-                <h3>Todo-liste uten innlogging, lagrer i localStorage.</h3>
+                <h3>En litt annerledes habit-tracker </h3>
                 <div>
                   <a
-                    href="https://mk-todolist.netlify.app/"
+                    href="https://3ting.no/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Live site{" "}
-                    <RiArrowRightUpLine aria-hidden="true" focusable="false" />
-                  </a>
-
-                  <a
-                    href="https://github.com/martinkariuki7/todolist"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Repo{" "}
                     <RiArrowRightUpLine aria-hidden="true" focusable="false" />
                   </a>
                 </div>
