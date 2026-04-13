@@ -42,14 +42,14 @@ export default function Home() {
                 className={`${styles.roundedFull} ${styles.currentTime}`}
               ></div>
               <time>I dag ({new Date().toLocaleDateString()})</time>
-              <h3 className={styles.experienceTitle}>Uten oppdrag</h3>
-              <p className={styles.fullOpacity}>
-                Har ikke oppdrag akkurat nå, så bruker tiden på kompetanseheving
-                og tester bruk av KI i produktutvikling.{" "}
-                <a href="mailto:martin.kariuki@okse.no">
-                  Ta kontakt for samarbeid
-                </a>
-              </p>
+              <h3 className={styles.experienceTitle}>
+                Senior UX designer - DeepOcean
+              </h3>
+            </li>
+            <li>
+              <div className={styles.roundedFull}></div>
+              <time>Feb 2026 - Apr 2026</time>
+              <h3>Frontend utvikling, sveltekit - Hockeystats</h3>
             </li>
             <li>
               <div className={styles.roundedFull}></div>
